@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Phone Number">
+
+        <menu>
+            <item
+                android:id="@+id/call"
+                android:icon="@drawable/call_icon"
+                android:title="9910191133"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Email ID">
+
+        <menu>
+            <item
+                android:id="@+id/email"
+                android:icon="@drawable/email_icon"
+                android:title="tamannakapoor144@gmail.com"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Reach me at:">
+        <menu>
+            <item
+                android:id="@+id/linkedin"
+                android:icon="@drawable/linkedin_logo"
+                android:title="@string/Linkedin"></item>
+
+            <item
+                android:id="@+id/insagram"
+                android:icon="@drawable/insta_logo"
+                android:title="@string/Instagram"/>
+
+            <item
+                android:id="@+id/github"
+                android:icon="@drawable/github_logo"
+                android:title="@string/GitHub"/>
+
+
+        </menu>
+
+         </item>
+
+</menu>

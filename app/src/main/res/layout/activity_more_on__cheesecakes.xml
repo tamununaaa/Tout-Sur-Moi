@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2E4C6D"
+    android:layout_height="match_parent"
+    tools:context=".More_on_Cheesecakes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="CHEESECAKE SHOTS"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#DADBBD"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FDCEB9"
+        android:layout_marginEnd="8dp"
+        android:text="Cheesecake is a kind of rich sweet tart made with cream and fresh cheese (typically cream cheese or ricotta) on a biscuit base.  "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="It is a beloved dessert around the world. While many assume that it has its origins in New York, it actually dates back much further. "
+        android:textSize="18sp"
+        android:textColor="#FDCEB9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Let's go back over 4,000 years to ancient Greece! Sit back, grab a creamy slice of cheesecake and learn all about this dessert’s rich history."
+        android:textSize="18sp"
+        android:textColor="#FDCEB9"
+        app:layout_constraintEnd_toEndOf="@+id/textView36"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView34"
+                app:srcCompat="@drawable/cheesecake_photo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:srcCompat="@drawable/mc_2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="180dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/textView36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/mc_1" />
+
+
+            <TextView
+                android:id="@+id/tvtravel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:textColor="#DADBBD"
+                android:text="CHEESECAKE TRAVELS\nTHE GLOBE"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvtravel">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FDCEB9"
+                    android:text="The first “cheese cake” may have been created on the Greek island of Samos."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#FDCEB9"
+                    android:text="In Greece, cheesecake was considered to be a good source of energy, and there is evidence that it was served to athletes during the first Olympic games in 776 B.C."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView38"
+                    app:layout_constraintStart_toStartOf="@+id/textView38"
+                    app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+
+                <ImageView
+                    android:id="@+id/mc4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="180dp"
+                    android:src="@drawable/mc_3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/textView39"
+                    app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="180dp"
+                    android:src="@drawable/mc_4"
+                    app:layout_constraintEnd_toEndOf="@+id/textView39"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#FDCEB9"
+                    android:text="When the Romans conquered Greece, the cheesecake recipe was just one spoil of war.  The Romans called their cheese cake “libuma” and they served it on special occasions."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView39"
+                    app:layout_constraintStart_toStartOf="@+id/textView39"
+                    app:layout_constraintTop_toBottomOf="@+id/mc4" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FDCEB9"
+                    android:layout_marginTop="4dp"
+                    android:text="As the Romans expanded their empire, they brought cheesecake recipes to the Europeans who put their own unique spin on cheesecake."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView40"
+                    app:layout_constraintStart_toStartOf="@+id/textView40"
+                    app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#FDCEB9"
+                    android:text="It was not until the 18th century, however, that cheesecake would start to look like something we recognize in the United States today."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView41"
+                    app:layout_constraintStart_toStartOf="@+id/textView41"
+                    app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+                <ImageView
+                    android:id="@+id/mc5"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/mc_5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textColor="#FDCEB9"
+                    android:text="Each region of the world also has its own take on the best way to make this dessert."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView42"
+                    app:layout_constraintStart_toStartOf="@+id/textView42"
+                    app:layout_constraintTop_toBottomOf="@+id/mc5" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FDCEB9"
+                    android:layout_marginTop="4dp"
+                    android:text="Italians use ricotta cheese, while the Greeks use mizithra or feta.\nGermans prefer cottage cheese, while the Japanese use a combination of cornstarch and egg whites."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView43"
+                    app:layout_constraintStart_toStartOf="@+id/textView43"
+                    app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#FDCEB9"
+                    android:text="There are specialty cheesecakes that include blue cheese, seafood, spicy chilies and even tofu!"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView44"
+                    app:layout_constraintStart_toStartOf="@+id/textView44"
+                    app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#FDCEB9"
+                    android:text="In spite of all the variations, the popular dessert’s main ingredients – cheese, wheat and a sweetener –remain the same."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView45"
+                    app:layout_constraintStart_toStartOf="@+id/textView45"
+                    app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FDCEB9"
+                    android:layout_marginTop="4dp"
+                    android:text="No matter how you slice it, cheesecake is truly a dessert that has stood the test of time."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView46"
+                    app:layout_constraintStart_toStartOf="@+id/textView46"
+                    app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#FDCEB9"
+                    android:text="From its earliest recorded beginnings on Samos over 4,000 years ago to its current iconic status around the world this creamy cake remains a favorite for sweet tooths of all ages."
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView47"
+                    app:layout_constraintStart_toStartOf="@+id/textView47"
+                    app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+                <ImageView
+                    android:id="@+id/mc6"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/mc_7"
+                    app:layout_constraintStart_toStartOf="@+id/textView47"
+                    app:layout_constraintTop_toBottomOf="@+id/textView48"/>
+
+                <ImageView
+                    android:id="@+id/mc7"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/mc_6"
+                    android:layout_marginLeft="4dp"
+                    app:layout_constraintStart_toEndOf="@+id/mc6"
+                    app:layout_constraintTop_toTopOf="@+id/mc6"/>
+
+                <ImageView
+                    android:id="@+id/mc8"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/mc_8"
+                    app:layout_constraintStart_toEndOf="@+id/mc7"
+                    app:layout_constraintTop_toTopOf="@+id/mc7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mc8"/>
+
+
+
+
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

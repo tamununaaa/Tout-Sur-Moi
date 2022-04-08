@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pikasoapp.com.example.tamannakapoor">
+
+    <permission android:name="android.permission." />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TamannaKapoor">
+        <activity android:name=".exp1"></activity>
+        <activity android:name=".exp5" />
+        <activity android:name=".exp4" />
+        <activity android:name=".exp3" />
+        <activity android:name=".exp2" />
+        <activity android:name=".exp0" />
+        <activity android:name=".conicere" />
+        <activity android:name=".Feedback_page" />
+        <activity android:name=".store_Room" />
+        <activity android:name=".More_on_Cheesecakes" />
+        <activity android:name=".Caricature_Gallery" />
+        <activity android:name=".Additional_info_page" />
+        <activity android:name=".Certificate_page" />
+        <activity android:name=".Experience_page" />
+        <activity android:name=".Education_page" />
+        <activity android:name=".Landing_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

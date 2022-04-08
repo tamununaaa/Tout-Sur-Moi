@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2E4C6D"
+    android:layout_height="match_parent"
+    tools:context=".Certificate_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textColor="#F2FFE9"
+                android:text="CERTIFICATIONS"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cert1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/exp6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView00" />
+
+            <LinearLayout
+                android:id="@+id/text_cert1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/cert1"
+                app:layout_constraintStart_toEndOf="@+id/cert1"
+                app:layout_constraintTop_toTopOf="@+id/cert1">
+
+                <TextView
+                    android:id="@+id/ct1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile App\nDevelopment"
+                    android:textColor="#DADBBD"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Climber"
+                    android:textColor="#FDCEB9"
+                    android:textSize="17sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cert2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/exp2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cert1"/>
+
+            <LinearLayout
+                android:id="@+id/text_cert2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/cert2"
+                app:layout_constraintStart_toEndOf="@+id/cert2"
+                app:layout_constraintTop_toTopOf="@+id/cert2">
+
+                <TextView
+                    android:id="@+id/ct2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data Analytics"
+                    android:textColor="#DADBBD"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IBM"
+                    android:textColor="#FDCEB9"
+                    android:textSize="17sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cert3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/cert3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cert2"/>
+
+            <LinearLayout
+                android:id="@+id/text_cert3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/cert3"
+                app:layout_constraintStart_toEndOf="@+id/cert3"
+                app:layout_constraintTop_toTopOf="@+id/cert3">
+
+                <TextView
+                    android:id="@+id/ct3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SheCodes\nTraining Program"
+                    android:textColor="#DADBBD"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IEEE-CIS"
+                    android:textColor="#FDCEB9"
+                    android:textSize="17sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cert4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/cert4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cert3"/>
+
+            <LinearLayout
+                android:id="@+id/text_cert4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/cert4"
+                app:layout_constraintStart_toEndOf="@+id/cert4"
+                app:layout_constraintTop_toTopOf="@+id/cert4">
+
+                <TextView
+                    android:id="@+id/ct4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DADBBD"
+                    android:text="Data Management\nand Visualization"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wesleyan University"
+                    android:textColor="#FDCEB9"
+                    android:textSize="17sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/cert5"
+                android:src="@drawable/cert5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cert4"/>
+
+            <LinearLayout
+                android:id="@+id/text_cert5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/cert5"
+                app:layout_constraintStart_toEndOf="@+id/cert5"
+                app:layout_constraintTop_toTopOf="@+id/cert5">
+
+                <TextView
+                    android:id="@+id/ct5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GWOC'21"
+                    android:textSize="20sp"
+                    android:textColor="#DADBBD"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GirlScript Winter of Coding"
+                    android:textColor="#FDCEB9"
+                    android:textSize="17sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@id/cert5"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

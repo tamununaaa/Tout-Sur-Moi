@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tamanna Kapoor</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="Linkedin"><a href="https://www.linkedin.com/in/tamannakapoor/">LinkedIn</a></string>
+
+    <string name="Instagram"><a href="https://www.instagram.com/tamununaaa/">Instagram</a></string>
+
+    <string name="GitHub"><a href="https://github.com/tamununaaa">Github</a></string>
+</resources>

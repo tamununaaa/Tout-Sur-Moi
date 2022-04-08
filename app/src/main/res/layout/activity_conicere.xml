@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2E4C6D"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conicere">
+
+
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="CONÍCERE"
+            android:textColor="#F2FFE9"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/carriGallery"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        app:srcCompat="@drawable/wsn" />
+
+    <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CARICATURE\nGALLERY"
+            android:textColor="#F2FFE9"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/carriGallery"
+            app:layout_constraintStart_toStartOf="@+id/carriGallery"
+            app:layout_constraintTop_toBottomOf="@+id/carriGallery" />
+
+    <ImageView
+        android:id="@+id/cheeseShots"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/carriGallery"
+        app:srcCompat="@drawable/cheesecakes" />
+
+    <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CHEESECAKE\nSHOTS"
+            android:textColor="#F2FFE9"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/cheeseShots"
+            app:layout_constraintStart_toStartOf="@+id/cheeseShots"
+            app:layout_constraintTop_toBottomOf="@+id/cheeseShots" />
+
+    <ImageButton
+        android:id="@+id/feedback"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:background="#00ffffff"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:srcCompat="@drawable/chbtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E4C6D"
+    tools:context=".Caricature_Gallery">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:textColor="#DADBBD"
+                android:layout_height="wrap_content"
+                android:text="CARICATURE GALLERY"
+                android:layout_marginTop="60dp"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <HorizontalScrollView
+                android:id="@+id/hsv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/one"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/two"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/three"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/four"/>
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/hsv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="@+id/hsv1"
+                app:layout_constraintTop_toBottomOf="@+id/hsv1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/five"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/six"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/seven"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/eight"/>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/hsv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="@+id/hsv2"
+                app:layout_constraintTop_toBottomOf="@+id/hsv2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/nine"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/ten"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/eleven"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/twelve"/>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:layout_constraintStart_toStartOf="@+id/hsv3"
+                app:layout_constraintTop_toBottomOf="@+id/hsv3"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
